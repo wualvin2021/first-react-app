@@ -18,8 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "first-react-app/node_modules/.bin/react-scripts start",
-    "build": "first-react-app/node_modules/.bin/react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "first-react-app/node_modules/.bin/react-scripts test",
     "eject": "first-react-app/node_modules/.bin/react-scripts eject"
   },
